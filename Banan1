@@ -1,0 +1,6 @@
+str = input('Введите слово (без пробелов):')
+rts = str[::-1]
+if str == rts:
+    print('True')
+else:
+    print('False')
